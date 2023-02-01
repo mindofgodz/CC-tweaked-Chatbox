@@ -1,5 +1,5 @@
-mon = peripherial.find("monitor")
-chat = peripherial.find("chatBox")
+mon = peripheral.find("monitor")
+chat = peripheral.find("chatBox")
 w,h = mon.getSize()
 
 function centerText(text, line, txtback, txtcolor, pos)
