@@ -27,6 +27,9 @@ function prepareMonitor()
     mon.clear()
     mon.setTextScale(1)
     centerText(" Chat ", 2, colors.red, colors.white, "head")
+    while true do
+        showChat()
+    end
 end
 
 function showChat()
@@ -35,7 +38,4 @@ function showChat()
     row = row+1
 end
 
-while true do
-    prepareMonitor()
-    showChat()
-end
+prepareMonitor()
